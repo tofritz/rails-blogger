@@ -147,7 +147,7 @@ h1 {
   font-family: "Yanone Kaffeesatz", sans;
 }
 html {
-  background: #d3dd8a;
+  background: rgb(24, 26, 27);
   -moz-background-size: 80px 80px;
   -webkit-background-size: 80px 80px;
   -o-background-size: 80px 80px;
@@ -187,9 +187,9 @@ html {
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans;
-  background: #fff;
+  background: rgb(24, 26, 27);
   margin: 50px auto 30px;
-  color: #2d4159;
+  color: #f25179;
   padding: 20px;
   width: 85%;
   min-width: 600px;
@@ -222,7 +222,7 @@ body:before {
   right: 8px;
   top: 8px;
   height: 260px;
-  background: #2b445c;
+  background: rgb(39, 40, 41);
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   -o-border-radius: 6px;
@@ -267,10 +267,10 @@ body:after {
   box-shadow: rgba(0, 0, 0, 0.3) 0 2px 5px 1px;
 }
 a {
-  color: #2d4159;
+  color: #f25179;
 }
 a:hover {
-  color: #233245;
+  color: #f5b428;
 }
 p.flash {
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 1px 3px;
@@ -352,10 +352,10 @@ h1 {
     50% 0%,
     50% 100%,
     color-stop(0%, #42678d),
-    color-stop(100%, #223447)
+    color-stop(100%, #0e4e92)
   );
   background-image: -moz-linear-gradient(#42678d, #223447);
-  background-image: linear-gradient(#42678d, #223447);
+  background-image: linear-gradient(#f25179, rgb(24, 26, 27));
   -moz-box-shadow: rgba(255, 255, 255, 0.15) 0 1px inset, white 0 1px;
   -webkit-box-shadow: rgba(255, 255, 255, 0.15) 0 1px inset, white 0 1px;
   -o-box-shadow: rgba(255, 255, 255, 0.15) 0 1px inset, white 0 1px;
@@ -365,7 +365,7 @@ h1 {
   padding-right: 180px;
   line-height: 1em;
   font-weight: normal;
-  color: #fff;
+  color: #5adbff;
   position: relative;
   text-shadow: #192836 0 -2px;
   font-size: 2.5em;
@@ -530,10 +530,10 @@ a.new_article:active,
   -ms-border-bottom-right-radius: 6px;
   -khtml-border-bottom-right-radius: 6px;
   border-bottom-right-radius: 6px;
-  border-right: 1px solid #e2e2e2;
+  border-right: 0px solid #e2e2e2;
 }
 #articles li {
-  border-bottom: 1px dashed #e5e5e5;
+  border-bottom: 1px dashed #f25179;
   padding: 1em 0 0.8em;
   margin-right: 20px;
   font-size: 1.2em;
@@ -551,7 +551,7 @@ a.new_article:active,
 #articles li > a:first-child {
   font-weight: bold;
   display: block;
-  color: #2d4159;
+  color: #5adbff;
   padding-bottom: 0.1em;
 }
 #articles .actions {
@@ -701,7 +701,7 @@ input[type="submit"] {
   line-height: 1.2em;
   padding: 0.3em 1em;
   border-width: 1px;
-  background-color: #134e89;
+  background-color: #5adbff;
   background-image: -webkit-gradient(
     linear,
     50% 0%,
